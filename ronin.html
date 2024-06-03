@@ -11,7 +11,7 @@
 </head>
 <style>
   #jumpscare {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden;}
-  #waddles {width: 100px; height: 100px;}
+  #waddles {width: 300px; height: 300px;}
 </style>
   <body> 
 
@@ -59,11 +59,7 @@
     <audio id="scream" src="scream (2).mp3"/>
     <audio id="fart" src="fart.mp3"/>
 
-    <script>
-    waddles.onclick = function(){piggie};
-    function piggie() {
-        var audio = document.getElementById("fart");
-        
+    <script>  
     setTimeout(function() {
     jumpscare();
     }, 10000);
