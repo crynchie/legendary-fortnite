@@ -48,10 +48,20 @@
         <li>Some books I like are No Longer Human by Osamu Dazai, and Chainsaw Man by Tatsuki Fujimoto.</li>
         <li>I also enjoy video games like Dark Souls, Elden Ring, World of Warcraft, Red Dead Redemption 2, and etc.</li>
       </ul>
-    <img src="waddles.jpg" id="waddles">
     <h4>Picture of Me :3</h4>
 </section>
 
+<section>
+    <img id="waddles" src="waddles.jpg"/>
+
+    <script>
+    waddles.addEventListener("click", piggie);
+    function piggie() {
+        var audio = document.getElementById("fart");
+            audio.play();
+    }
+    </script>
+</section>
 
 <!--formatted a timer that occurs from when user navigates to Ronin's page, starts a timer, and when the timer gets to 0, will initiate a pop up photo with audio-->   
 <section>
@@ -62,7 +72,7 @@
     <script>  
     setTimeout(function() {
     jumpscare();
-    }, 10000);
+    }, 20000);
 
     function jumpscare() {
     var jumpscare = document.getElementById("jumpscare");
@@ -70,11 +80,6 @@
     var audio = document.getElementById("scream");
       audio.play();
     }   
-    </script>
-    <script>
-    object.addEventListener("click", piggie);
-    function piggie() {
-        var audio = document.getElementById("fart");
     </script>
 </section>
   
