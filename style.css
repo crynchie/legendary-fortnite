@@ -246,6 +246,37 @@ th, td {
   text-align: center;
   color: #008080;
 }
+
+/*Haylee page*/
+
+#hayleepfp{
+  max-width: 2in;
+  height: auto;
+  border-radius: 1in;
+}
+.column-container {
+  flex-wrap: flex;
+  display: flex;
+}
+#sidecolumn{
+  flex-wrap: flex;
+  margin: 45px;
+  padding: 20px;
+  max-width: 5in;
+  height: auto;
+  background-color: #daeaf1;
+}
+#maincolumn {
+  flex-wrap: flex;
+  margin: 45px;
+  width: 12in;
+}
+.nailpics {
+  width: 400px;
+  height: auto;
+  margin: 0 auto; 
+}
+
 /* Footer */ 
 
 #main-footer { 
