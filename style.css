@@ -20,10 +20,13 @@ a {
 
 h1, h2, h3 { 
   padding-bottom: 20px; 
+	padding-top: 15px; 
 } 
 
 p { 
-  margin: 10px 0; 
+  margin: 10px 0;
+	padding: 20px;
+  white-space-collapse: collapse;
 } 
 
 /* Utility Classes */ 
